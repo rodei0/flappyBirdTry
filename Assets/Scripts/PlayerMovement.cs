@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -26,8 +27,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (isDead) return;
-        if (Input.GetKeyDown(KeyCode.Space))
+        PulsarEspacio();
+
+        
+
+        if (Input.GetKeyDown(KeyCode.Space) && !isDead)
         {
             PlayerJump();
         }
@@ -60,6 +64,15 @@ public class PlayerMovement : MonoBehaviour
         restartUI.SetActive(true);
 
         StartCoroutine(PauseAfterAnimation());
+    }
+
+    public void PulsarEspacio()
+    {
+        if (Input.GetKeyDown (KeyCode.Space) && isDead)
+        {
+            Time.timeScale = 1.0f;
+            SceneManager.LoadScene(1);
+        }
     }
 
     IEnumerator PauseAfterAnimation()

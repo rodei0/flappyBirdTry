@@ -3778,7 +3778,6 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   clipGainScore: {fileID: 8300000, guid: 244b5f13f31c3f844bd61b6d425e4ade, type: 3}
   clipWinScreen: {fileID: 8300000, guid: 330b110b4ee992d439fd367bb72b1861, type: 3}
-  click: {fileID: 8300000, guid: 5a0ed16842215c649ae77806a4d29bbf, type: 3}
 --- !u!4 &1022141923
 Transform:
   m_ObjectHideFlags: 0
