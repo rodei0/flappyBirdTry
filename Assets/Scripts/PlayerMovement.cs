@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
         
 
-        if (Input.GetKeyDown(KeyCode.Space) && !isDead)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && !isDead)
         {
             PlayerJump();
         }
