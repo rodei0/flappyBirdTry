@@ -8,14 +8,14 @@ Versión final de un juego estilo flappy bird, creado con el objetivo de mejorar
 - Control del personaje con físicas: salto por impulso y detección de colisiones
 - Generación procedural de obstáculos con altura aleatoria y aumento de dificultad en relación al tiempo
 - Efecto parallax en varias capas
-- Sistema de puntuación con guardado
+- Sistema de puntuación con guardado implementado con playerPrefs
 
 ## Mi rol
-Programación, arte, diseño... (proyecto en solitario).
+Programación, arte y diseño (proyecto en solitario).
 
 ## Scripts relevantes
 - `PlayerMovement.cs`: movimiento y salto
-- `AudioManager.cs`: integración con FMOD
+- `Spawner.cs`: Generación y lógica de los obstáculos
 
 ## Jugar
 https://rodei.itch.io/flappy-bat
