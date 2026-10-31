@@ -2,7 +2,7 @@
 
 Versión final de un juego estilo flappy bird, creado con el objetivo de mejorar en programación y Unity
 
-![gameplay](docs/gameplay.gif)
+![gameplay](docs/Gameplay.gif)
 
 ## Features
 - Control del personaje con físicas: salto por impulso y detección de colisiones
